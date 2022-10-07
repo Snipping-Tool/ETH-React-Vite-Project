@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("bulma/css/bulma.css");
+@import url("material-design-icons/iconfont/material-icons.css");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 7px;
+  height: 20px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #d4d4d3;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #a34bf8;
+  border-radius: 100vh;
+  border: 1px solid #f6f7ed;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a34bf8;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
